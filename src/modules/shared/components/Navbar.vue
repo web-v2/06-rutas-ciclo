@@ -20,9 +20,9 @@ a{
     text-decoration: none;
 }
 .btn {
-    background-color: #4CAF50; /* 008CBA, 4CAF50 */
+    background-color: #e7e7e7; /* 008CBA, 4CAF50 */
     border: none;
-    color: white;
+    color: black;
     padding: 15px 15px;
     text-align: center;
     text-decoration: none;
@@ -33,5 +33,8 @@ a{
 
 .btn:hover {
     box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+div .router-link-exact-active{
+    color: #42b983;
 }
 </style>
