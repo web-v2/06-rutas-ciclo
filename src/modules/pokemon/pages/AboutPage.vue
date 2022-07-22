@@ -22,44 +22,44 @@
             } 
         },
         beforeCreate(){
-            console.log('beforeCreate')
+            //console.log('beforeCreate')
         },
         created(){
-            console.log('created')
+            //console.log('created')
             //Peticiones HTTP
         },
         beforeMount(){
-            console.log('beforeMount')
+            //console.log('beforeMount')
         },
         mounted(){
-            console.log('mounted')
+            //console.log('mounted')
         },
         beforeUpdate(){
-            console.log('beforeUpdate')
+            //console.log('beforeUpdate')
         },
         updated(){
-            console.log('updated')
+            //console.log('updated')
         },
         activated(){
-            console.log('activated')
+            //console.log('activated')
         },
         desactivated(){
-            console.log('desactivated')
+            //console.log('desactivated')
         },
         beforeUnmount(){
-            console.log('beforeUnmount')
+            //console.log('beforeUnmount')
         },
         unmounted(){
-            console.log('unmounted')
+            //console.log('unmounted')
         },
         errorCaptured(){
-            console.log('errorCaptured')
+            //console.log('errorCaptured')
         },
         renderTracked(){
-            console.log('renderTracked')
+            //console.log('renderTracked')
         },
         renderTriggered(){
-            console.log('renderTriggered')
+            //console.log('renderTriggered')
         }
     }
 </script>

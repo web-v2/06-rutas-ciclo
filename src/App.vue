@@ -1,7 +1,7 @@
 <template>
   <div>
     <NavbarVue/>
-    <img alt="Vue logo" src="./assets/logo.png">
+    <img id="uid" alt="Vue logo" src="./assets/logo.png">
     <router-view></router-view>
   </div>
 </template>

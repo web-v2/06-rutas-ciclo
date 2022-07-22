@@ -1,11 +1,38 @@
 <template>
     <div>
-        <router-link class="btn" to="/">Pokemon List</router-link>
-        <router-link class="btn" to="/id">Pokemon por Id</router-link>
-        <router-link class="btn" to="/about">About</router-link>
+        <!--<router-link class="btn" :to="{name: 'home'}">Pokemon List</router-link>
+        <router-link class="btn" :to="{name: 'pokemon-id', params: {id: 10}}">Pokemon por Id</router-link>
+        <router-link class="btn" :to="{name: 'about'}">About</router-link>-->
+        <CustomLink
+            v-for="link in links"
+            :key="link.to"
+            :link="link"
+        />
     </div>
 </template>
+<script>
+import { defineAsyncComponent } from 'vue'
 
+export default {
+    data(){
+        return {
+            links: [
+                {to: 'pokemon-home',    name: 'Pokemons'},
+                {to: 'pokemon-id',      name: 'Por Id', id: 15},
+                {to: 'pokemon-about',   name: 'About'},
+
+                {to: 'dbz-characters',   name: 'Personajes'},
+                {to: 'dbz-about',   name: 'DBZ - About'},
+
+                {to: 'https://google.com', name: 'Google'},
+            ]
+        }
+    },
+    components: {
+        CustomLink: defineAsyncComponent(()=>import('./CustomLink.vue'))
+    }
+}
+</script>
 <style scoped>
 
 div{
@@ -14,9 +41,9 @@ div{
 div a{
     font-weight: bold;
     color: #2c3e50;
-    margin: 0 3px;
+    margin: 0 10px;
 }
-a{
+a {
     text-decoration: none;
 }
 .btn {
