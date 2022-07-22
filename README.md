@@ -1,19 +1,36 @@
 # 06-rutas-ciclo
 
+## Comenzando 🚀
 ## Project setup
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+## Lanza la Aplicación en modo Desarrollo 🚀
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+## Lanza la Aplicación en modo Producción 🚀
 ```
 npm run build
 ```
+## Autores ✒️
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+* **Samir Vergara V** - *Desarrollo* - [web-v2](https://github.com/web-v2)
+### Desarrollado por
+```
+Samir Vergara V - Curso de Vue [Fernando Herrera]
+```
+
+## Licencia 📄
+
+Este proyecto está bajo la Licencia (Tu Licencia) - mira el archivo [LICENSE.md](LICENSE.md) para detalles
+
+## Expresiones de Gratitud 🎁
+
+* Comenta a otros sobre este proyecto 📢
+* Invita una cerveza 🍺 o un café ☕ a alguien del equipo. 
+* Da las gracias públicamente 🤓.
+---
+⌨️ con ❤️ por [web-v2](https://github.com/web-v2) 😊
